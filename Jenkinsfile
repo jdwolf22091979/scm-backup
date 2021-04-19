@@ -17,7 +17,6 @@ node{
     echo "GIT_COMMIT_MSG: ${GIT_COMMIT_MSG}"
  */
     
-    
  }
   
 }
