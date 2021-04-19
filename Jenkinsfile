@@ -10,6 +10,8 @@ node{
     echo "GIT_COMMIT_MSG: ${scmVars.GIT_COMMIT_MSG}"
     
     
+    
+    
     GIT_COMITTER_NAME = sh (script: 'git log -1 --pretty=%cn ${GIT_COMITTER_NAME}', returnStdout: true).trim()
     echo "GIT_COMITTER_NAME: ${GIT_COMITTER_NAME}"
    
